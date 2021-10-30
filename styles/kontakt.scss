@@ -1,0 +1,91 @@
+.kontakt_container{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    align-items: center;
+padding-top: 90px;
+background-color: rgba(242, 241, 239, 1);
+background-attachment: fixed;
+background-image: url(./kontakt.jpg);
+background-size: cover;
+background-position: center;
+
+}
+.section_name_kontakt hr{
+width: 80%;
+    border: 1.5px solid #05C7F2;
+    border-radius: 50px;
+    display: block;
+}
+.section_name_kontakt{
+    text-align: center;
+    font-size: 2.3rem;
+    height: 20%;
+    width: 40%;
+    margin-bottom: 5vh;
+    background: rgba(255, 255, 255 , .7);
+
+
+    }
+    .section_rest{
+
+        height:60%;
+        width: 70%;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.6rem;
+        background: rgba(255, 255, 255 , .7);
+    }
+    .section_konakt_options{
+        width: 100%;
+        height: 24%;
+        display:flex;
+        justify-content: space-betweeen;
+        align-items: center ;
+        flex-direction: column;
+    }
+    .section_konakt_options:nth-of-type(1) p:nth-of-type(2){
+        margin-top:0px;
+    }
+    .section_konakt_options:nth-of-type(2) {
+        height: 50%;
+      }
+    .section_konakt_options p{
+        margin-bottom: 0.5rem;
+    }
+    iframe{
+        border:none;
+        overflow:hidden
+    }
+    .biuro{
+margin-top: 0;
+    }
+    @media(max-width:768px){
+.kontakt_container{
+    background-attachment: unset;
+}
+
+.section_name_kontakt{
+    text-align: center;
+    font-size: 2rem;
+    height: 20%;
+    width: 60%;
+    margin-bottom: 3vh;
+    background: rgba(255, 255, 255 , .7);
+
+
+    }
+.kontakt_container{
+padding-top:90px;
+}
+    .section_rest{
+        height: 55%;
+
+        width: 90%;
+
+        font-size: 1.1rem;
+    }
+
+    }
